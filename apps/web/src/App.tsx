@@ -1,10 +1,10 @@
-import { GameContainer } from './games/command-battle/components/GameContainer';
+import { EbbGame } from './games/ebb/EbbGame';
 import { GameShell } from '@ui/GameShell';
 
 function App() {
 	return (
 		<GameShell orientation="landscape">
-			<GameContainer />
+			<EbbGame />
 		</GameShell>
 	);
 }
